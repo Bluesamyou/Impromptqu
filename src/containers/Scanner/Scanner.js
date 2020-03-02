@@ -4,7 +4,10 @@ import "./Scanner.css";
 const Scanner = props => {
   return (
     <div className="scanner-container">
-      <h1>This is the scanner</h1>
+      <div className="button-container">
+        <button className="join-queue-button">Join a queue</button>
+        <button className="my-queues-button">My Queues</button>
+      </div>
     </div>
   );
 };
